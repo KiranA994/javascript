@@ -1,0 +1,11 @@
+console.log(typeof('Hello World'));
+console.log(typeof(false));
+console.log(typeof(27));
+console.log(typeof(27.5));
+console.log('---------------------');
+console.log('hello' + 'world');
+console.log('hello' + 7);
+console.log('4'+9);
+console.log('---------------------');
+x = '25';
+console.log(x);
