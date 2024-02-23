@@ -1,0 +1,15 @@
+// write a prgm to print the factorial of a given number
+
+num = 5;
+
+i = 1;
+
+str = '';
+
+fact = 1;
+
+while(i <= num){
+    fact = fact * i ;
+    i++;
+}
+console.log(fact);
