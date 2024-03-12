@@ -1,0 +1,88 @@
+method - function inside a class
+
+methodName(){
+
+}
+
+properties - variables inside a class
+
+constructor - is used to initialize the properties.
+
+class className{
+      // property
+    // constructor
+    // methods
+}
+
+It is not mandatory to include property, constructor, method inside a class.
+
+It is optional.
+
+instance variable - this keyword is used 
+
+constructor is a mathod. It is self invoking method when object is created.
+
+
+pillers of oops
+---------------
+
+1)inheritance
+
+   used to access methods and properties from one class to another class.
+   parent class - class from which methods and properties are accessed.
+   child class  - class which access methods and properties from other class
+
+   extends keyword is used to access methods and properties.
+
+   two types of inheritance
+
+   1) classical inheritance
+      
+      extends keyword is used to access methods and properties.
+
+   2) object inheritance
+
+      __proto__ 
+
+      multi level inheritance
+      -----------------------
+
+2)polymorphism
+  
+  poly - many
+
+  morphism - forms
+
+  1) method overloading
+     
+     method with same method but with different arguments.
+     
+     execute based on the number of arguments.
+
+     javascript does not support method overloading.
+
+     rest operator is used to achieve polymorphism - (...)
+
+  2) method overriding
+     
+     function with same name and same arguments.
+
+     javascript support method overriding.
+
+3)encapsulation
+4)abstraction
+
+
+exception handling
+------------------
+
+exception - run time errors.
+
+try-catch block is used to handle exception
+
+try - statements which can commit errors are placed.
+
+catch - how to behave or resolve the error. 
+
+finally - statements that have to be executed in both cases (try and catch).
+
