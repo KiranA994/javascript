@@ -20,7 +20,7 @@ It is optional.
 
 instance variable - this keyword is used 
 
-constructor is a mathod. It is self invoking method when object is created.
+constructor is a method. It is self invoking method when object is created.
 
 
 pillers of oops
@@ -70,7 +70,35 @@ pillers of oops
      javascript support method overriding.
 
 3)encapsulation
+  -------------
+Encapsulation refers to the practice of hiding the internal details of an object and exposing only the necessary information to the outside world.
+
+Encapsulation can be achieved using two techniques:
+---------------------------------------------------
+1)Using Closures
+
+closures are functions that have access to variables in their outer lexical environment, even after the outer function has returned. 
+
+Private variables and methods can be created using closures.
+
+
+2)Using Classes
+
+class allows us to define classes and objects in a more structured way. 
+
+Classes can be used to achieve encapsulation in JavaScript.
+
+
 4)abstraction
+
+Abstraction refers to the concept of hiding complex implementation details and showing only the essential features or functionalities of an object to the user.
+
+Achieving abstraction involves creating abstract classes and interfaces.
+
+JavaScript itself doesn’t have native support for these concepts. 
+
+Instead, developers often use prototypes, functions, and object-oriented patterns to enforce abstraction.
+
 
 
 exception handling

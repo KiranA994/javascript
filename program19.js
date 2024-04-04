@@ -4,8 +4,6 @@ num = 5;
 
 i = 1;
 
-str = '';
-
 fact = 1;
 
 while(i <= num){

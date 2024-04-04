@@ -33,15 +33,19 @@ console.log('-----------------------------------------');
 
 // write a prgm to display all armstrong number between 8-500
 
-sum = 0;
-for(i=8;i <=500;i++){
+
+for(let i=8;i<=500;i++){
+    let numberOfDigits = String(i).length;
+    sum = 0;
     temp = i;
     while(temp>0){
-        ld = temp % 10;
-        sum = sum + Math.pow(ld,temp.toString().length);
+        let ld = temp % 10;
+        sum = sum + (ld * numberOfDigits);
         temp = parseInt(temp/10);
     }
-    console.log(sum===temp);    
+    if (sum == i) {
+        console.log(i);
+    } 
 }
 
 

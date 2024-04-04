@@ -1,5 +1,5 @@
-// write a prgm to display the numbers whose exponential is in the range of 8-36
-// - here the user can input the exponential value(power)
+//  write a prgm to display the numbers whose exponential is in the range of 8-36
+//  here the user can input the exponential value(power)
 //  power = 2
 
 power = 2;
