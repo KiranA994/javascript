@@ -29,7 +29,7 @@ console.log('-----------------------------------');
 
 for(i=1;i<=5;i++){
     str = '';
-    for(j=5;j>=i;j--){
+    for(j=4;j>=i;j--){
         str = str + ' ';
     }
     for(col=1;col<=i; col++){
@@ -38,13 +38,13 @@ for(i=1;i<=5;i++){
     console.log(str);
 }
 
-for(i=4;i>=1;i--){   
-    str = '';
-    for(j=1;j<4;j++){ 
-        str = str + ' '; 
+for(i=1;i<=4;i++){   
+    stri = '';
+    for(j=1;j<=i;j++){ 
+        stri = stri + ' '; 
     }
-    for(col=1;col<=i; col++){
-        str = str + '* ';
+    for(col=4;col>=i; col--){
+        stri = stri + ' *';
     }
-    console.log(str);
+    console.log(stri);
 }

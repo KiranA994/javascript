@@ -100,7 +100,6 @@ JavaScript itself doesn’t have native support for these concepts.
 Instead, developers often use prototypes, functions, and object-oriented patterns to enforce abstraction.
 
 
-
 exception handling
 ------------------
 
@@ -113,4 +112,3 @@ try - statements which can commit errors are placed.
 catch - how to behave or resolve the error. 
 
 finally - statements that have to be executed in both cases (try and catch).
-
